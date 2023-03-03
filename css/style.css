@@ -1,0 +1,114 @@
+body {
+  padding: 20px;
+}
+.userCard {
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  width: 380px;
+
+  align-items: center;
+  justify-content: flex-end;
+
+  background-image: url("../images/logo.png"), url("../images/picture.png"),
+    linear-gradient(114.99deg, #471ca9 -0.99%, #5736a3 54.28%, #4b2a99 78.99%);
+  background-repeat: no-repeat;
+  background-position: left 20px top 20px, left 36px top 28px, left 0 top 0;
+
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+}
+.userCard__logo {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+.userCard__banner {
+  margin-top: 28px;
+}
+
+.userCard__avatar-block {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 18px;
+  width: 380px;
+}
+.userCard__avatar {
+  position: absolute;
+}
+.userCard__avatar-border {
+  position: absolute;
+}
+.userCard__avatar-block::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 8px;
+  left: 0px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+.userCard__avatar-block::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  width: 150px;
+  height: 8px;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
+.userCard__text-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+  align-items: center;
+}
+.userCard__text {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ebd8ff;
+}
+.userCard__text:nth-child(1) {
+  margin-bottom: 16px;
+}
+
+.userCard__button {
+  margin: 26px 0 36px;
+  width: 196px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #373737;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.userCard__button--active {
+  width: 196px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+
+  background: #5cd3a8;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+}
