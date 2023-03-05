@@ -1,5 +1,8 @@
-body {
-  padding: 20px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
 }
 .userCard {
   display: flex;
@@ -26,7 +29,6 @@ body {
 .userCard__banner {
   margin-top: 28px;
 }
-
 .userCard__avatar-block {
   display: inline-flex;
   align-items: center;
@@ -81,7 +83,6 @@ body {
 .userCard__text:nth-child(1) {
   margin-bottom: 16px;
 }
-
 .userCard__button {
   margin: 26px 0 36px;
   width: 196px;
