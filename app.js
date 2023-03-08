@@ -44,8 +44,4 @@ function changeNumberFormat(number) {
   return formatFollowers;
 }
 
-function reChangeNumberFormat(number) {
-  const numberFormat = new Intl.NumberFormat();
-  const reFormatFollowers = numberFormat.format(number);
-  return reFormatFollowers;
-}
+

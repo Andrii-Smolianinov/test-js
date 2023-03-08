@@ -26,7 +26,7 @@
 ___
 
     ● Layout is fixed in rx, semantic and valid.
-    No pardons in the browser console.
+      No pardons in the browser console.
     ● The robot is built on native JS with a variety of faucets or on React.
     ● Interactivity is applicable to technical requirements.
     ● Format code without comments.
