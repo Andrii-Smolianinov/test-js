@@ -20,13 +20,15 @@
 >>>>>>>>>>>>>>>>>>> __I__
 >>>>>>>>>>>>>>>>>>>> __P__
 >>>>>>>>>>>>>>>>>>>>> __T__
-# __Тестове завдання__
-### Мета: створити картку для одного твіта та додати інтерактивності при клікові на кнопку.
+# __Test task__
+### Create a card for one tweet and add interactivity when clicking on the button.
+
 ___
-## _Критерії виконання_
-    ● Верстка фіксована в рх, семантична та валідна.
-    Немає помилок в консолі браузера.
-    ● Робота виконана на нативному JS з використанням зборщиків або на React.
-    ● Інтерактивність працює відповідно до технічного завдання.
-    ● Код відформатований та без коментарів.
-    ● В репозиторії має бути описаний README.md. Опис на ваш розсуд.
+
+    ● Layout is fixed in rx, semantic and valid.
+    No pardons in the browser console.
+    ● The robot is built on native JS with a variety of faucets or on React.
+    ● Interactivity is applicable to technical requirements.
+    ● Format code without comments.
+    ● The repository may contain README.md descriptions. Description for your consideration.
+    
